@@ -1,19 +1,8 @@
 @php
-    $formatted = !empty($data->deadline_of_submission) 
-    ? date('F j, Y', strtotime($data->deadline_of_submission)) 
+    $formatted = !empty($data->deadline_for_submission) 
+    ? date('F j, Y', strtotime($data->deadline_for_submission)) 
     : 'N/A';
-    // $formatted = $data->deadline_for_submission;
-    $type = "{$auditResultType} Audit";
-    $reportCpar = "";
-
-    if($data->classification == 'CPAR'){
-        $reportCpar = "Report and CPAR";
-
-    }
-    else{
-        $reportCpar = "Report";
-    }
-
+    $type = "{$auditResultType} Audit Report"
 @endphp
 <!DOCTYPE html>
 <html>
@@ -34,7 +23,7 @@
         <label style="font-size: 18px;">Good day,</label>
         <br><br>
         <label style="font-size: 14px;">
-            Please submit improvement actions for the attached {{ strtoupper($type) }} {{ $reportCpar }} to the QA Section on or before {{ $formatted }} for consolidation and review prior to uploading and monitoring.
+            Please submit improvement actions for the attached {{ strtoupper($type) }} to the QA Section on or before {{ $formatted }} for consolidation and review prior to uploading and monitoring.
             <br>
             <br>
             Kindly include root cause, corrective actions, target completion date, and supporting evidence, as applicable.

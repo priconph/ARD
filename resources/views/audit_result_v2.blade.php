@@ -2855,65 +2855,36 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        {{-- <div class="row" id="divInternalCPARNumbers" style="display: none;"> --}}
-                                        <div class="row">
-                                            <!-- Positive Feedback -->
-                                            <div class="col-sm-3 mb-3">
-                                                <label for="inputAddIntAuditNoPossitiveFeedback" class="font-weight-bold text-secondary small">No. of Positive Feedback</label>
-                                                <div class="input-group">
-                                                    <input type="number" id="inputAddIntAuditNoPossitiveFeedback" class="form-control" name="number_possitive_feedback" min="0" placeholder="0">
-                                                    <div class="input-group-append">
-                                                        <div class="input-group-text bg-light">
-                                                            <input type="checkbox" class="na-checkbox" id="na_internal_positive" data-target="#inputAddIntAuditNoPossitiveFeedback">
-                                                            <label class="small text-muted mb-0" for="na_internal_positive">N/A</label>
-                                                        </div>
-                                                    </div>
+                                        <div class="row" id="divInternalCPARNumbers" style="display: none;">
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="projectinput1">No. of Possitive Feedback</label>
+                                                    <input type="number" id="inputAddIntAuditNoPossitiveFeedback"
+                                                        class="form-control" name="number_possitive_feedback" >
                                                 </div>
                                             </div>
-
-                                            <!-- Major NC -->
-                                            <div class="col-sm-3 mb-3">
-                                                <label for="inputAddIntAuditNoMajorNC" class="font-weight-bold text-secondary small">No. of Major NC</label>
-                                                <div class="input-group">
-                                                    <input type="number" id="inputAddIntAuditNoMajorNC" class="form-control" name="number_major_nc" min="0" placeholder="0">
-                                                    <div class="input-group-append">
-                                                        <div class="input-group-text bg-light">
-                                                            <input type="checkbox" class="na-checkbox" id="na_internal_major" data-target="#inputAddIntAuditNoMajorNC">
-                                                            <label class="small text-muted mb-0" for="na_internal_major">N/A</label>
-                                                        </div>
-                                                    </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="projectinput1">No. of Major NC</label>
+                                                    <input type="number" id="inputAddIntAuditNoMajorNC"
+                                                        class="form-control" name="number_major_nc" >
                                                 </div>
                                             </div>
-
-                                            <!-- Minor NC -->
-                                            <div class="col-sm-3 mb-3">
-                                                <label for="inputAddIntAuditNominorNC" class="font-weight-bold text-secondary small">No. of Minor NC</label>
-                                                <div class="input-group">
-                                                    <input type="number" id="inputAddIntAuditNominorNC" class="form-control" name="number_minor_nc" min="0" placeholder="0">
-                                                    <div class="input-group-append">
-                                                        <div class="input-group-text bg-light">
-                                                            <input type="checkbox" class="na-checkbox" id="na_internal_minor" data-target="#inputAddIntAuditNominorNC">
-                                                            <label class="small text-muted mb-0" for="na_internal_minor">N/A</label>
-                                                        </div>
-                                                    </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="projectinput1">No. of minor NC</label>
+                                                    <input type="number" id="inputAddIntAuditNominorNC"
+                                                        class="form-control" name="number_minor_nc" >
                                                 </div>
                                             </div>
-
-                                            <!-- OFI -->
-                                            <div class="col-sm-3 mb-3">
-                                                <label for="inputAddIntAuditNoOFI" class="font-weight-bold text-secondary small">No. of OFI</label>
-                                                <div class="input-group">
-                                                    <input type="number" id="inputAddIntAuditNoOFI" class="form-control" name="number_OFI" min="0" placeholder="0">
-                                                    <div class="input-group-append">
-                                                        <div class="input-group-text bg-light">
-                                                            <input type="checkbox" class="na-checkbox" id="na_internal_ofi" data-target="#inputAddIntAuditNoOFI">
-                                                            <label class="small text-muted mb-0" for="na_internal_ofi">N/A</label>
-                                                        </div>
-                                                    </div>
+                                            <div class="col-sm-3">
+                                                 <div class="form-group">
+                                                    <label for="projectinput1">No. of OFI</label>
+                                                    <input type="number" id="inputAddIntAuditNoOFI"
+                                                        class="form-control" name="number_OFI" >
                                                 </div>
                                             </div>
                                         </div>
-                                        {{-- </div> --}}
                                         <!-- <hr> -->
                                         <!-- <center><label for="projectinput1"><b>FOR OTHER SECTION</b></label></center> -->
                                             <div class="row">
